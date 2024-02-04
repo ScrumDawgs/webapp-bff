@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: src/main/docker/Dockerfile
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis-server
+
+  redis-server:
+    image: "redis:alpine"
+    ports:
+      - "6379:6379"
