@@ -2,7 +2,6 @@ package com.mola.scrumdawg.webappbff.model;
 
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.redis.core.RedisHash;
 

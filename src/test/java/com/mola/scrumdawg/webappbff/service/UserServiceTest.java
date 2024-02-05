@@ -5,10 +5,8 @@ import com.mola.scrumdawg.webappbff.exception.ResourceNotFoundException;
 import com.mola.scrumdawg.webappbff.model.User;
 import com.mola.scrumdawg.webappbff.repository.UserRepository;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Optional;
 
